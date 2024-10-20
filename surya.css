@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+}
+
+header{
+    background-color:royalblue;
+    color:white;
+    font-family: sans-serif;
+    padding: 20px 20px 20px 20px;
+    height: 90px;
+}
+.contact img{
+    width: 20px;
+}
+p{
+    display: inline;
+}
+.menu{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    
+}
+.personal{
+    float: left;
+}
+nav{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+}
+#about_me{
+    display: flex;
+    margin-left: 150px;
+
+}
+.person_image{
+    width: 400px;
+    padding-left: 30px;
+}
+.intro{
+    display: flex;
+}
+.intro h3{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: royalblue;
+
+}
+.about{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.about p{
+    flex: 1;
+    min-height: 300px;
+}
+.bio{
+    padding-top: 80px;
+}
+#skills{
+    display: flex;
+}
+.img{
+    width: 100px;
+}
+h2{
+    color: royalblue;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+.html{
+
+    box-shadow: 0px 0px 5px black ;
+    margin-top: 70px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px; 
+    padding: 20px; 
+}
+img[src="java.png"]{
+    width: 60px;
+    height: auto;
+}
+img[src="CSS3.png"]{
+    width: 60px;
+    height: auto;
+}
+h5{
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+#Projects {
+    padding-left: 150px;
+}
+.chatbot{
+    padding-bottom: 20px;
+}
+.sentiment_analyzer, .fashion{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+hr{
+    width: 800px;
+}
+p{
+    font-family: sans-serif;
+}
+#Recommendations{
+    display: flex;
+}
+.boxer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 150px;
+}
+.box1{
+    box-shadow: 0px 0px 5px black;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+h6{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-right: 580px;
+    padding-top: 30px;
+
+}
+#comments{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-left: 400px;
+    width: 600px;
+    height: 15px;
+    align-items: center;
+    margin-top: 20px;
+
+}
+#comment{
+    flex-wrap: wrap;
+}
+#comments2{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-left: 400px;
+    width: 600px;
+    height: 100px;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.button{
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
